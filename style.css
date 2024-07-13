@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin-top: 0; /* Ensures navbar touches the top of the screen */
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background:#4A707A;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.parallax {
+    position: relative;
+    background-image: url('./aboutpage.jpg'); /* Replace with your image path */
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.larger-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.custom-heading {
+    margin-top: 40px !important; /* Ensure the margin-top is applied */
+}
+
+.custom-paragraph {
+    margin-top: 20px !important; /* Ensure the margin-top is applied */
+}
+
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 2em;
+    }
+}
+.content-gap {
+    margin-top: 10px; /* Adjust this value to change the gap */
+}
+
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#offer .offer-item {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p, .social-media a, .contact-info p, .contact-info a {
+    color: #fff;
+    margin: 5px 0;
+}
+
+.social-media a, .contact-info a {
+    text-decoration: none;
+}
+
+.social-media a:hover, .contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .parallax-content h2 {
+        font-size: 1.5em;
+    }
+}
+
